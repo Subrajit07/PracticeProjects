@@ -1,4 +1,4 @@
 FROM openjdk
-WORKDIR /docker01
-COPY target/*.jar /docker01
-CMD ["java","-jar","docker01.jar"]
+WORKDIR /dock01
+COPY target/*.jar /dock01
+CMD ["java","-jar","dock01.jar"]
